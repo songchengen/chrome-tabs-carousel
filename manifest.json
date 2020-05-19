@@ -1,0 +1,16 @@
+{
+  "name": "Tabs carousel",
+  "version": "0.1",
+  "description": "Tabs自动轮播",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Auto Carousel",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
